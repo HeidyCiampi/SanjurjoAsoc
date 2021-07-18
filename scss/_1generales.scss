@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
+}
+  
+body {
+  background-color: #f9fbfc;
+  font: {
+    family: $tipografia;
+    size: 16px;
+  }
+  margin: 1%; 
+}
+
+a {
+  text-decoration: $texto-decoration-none; 
+  &:visited {
+    color: 0; 
+  }
+}
+
+h1 {
+  color:$texto-negro;
+  text-align: $texto-centrado;
+  font: {
+    weight: $negrita;
+    size: 2.5em; 
+  }
+}
+
+h2 {
+  color: $texto-negro;
+  text-align: $texto-centrado;
+  font-size: 2em; 
+}
+  
+p {
+  color: $texto-negro;
+  font-size: 1.3em; 
+}

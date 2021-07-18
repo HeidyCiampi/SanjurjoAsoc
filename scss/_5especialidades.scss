@@ -1,0 +1,63 @@
+
+@mixin box ($color) {
+  background-color: $color;
+  padding: 10%;
+  text-align: $texto-centrado;
+  border-radius: 10%; 
+}
+
+.especialidades__detalle__box--gris {
+ @include box ($especialidades-fondo-oscuro)
+}
+
+.especialidades__detalle__box--claro {
+ @include box ($especialidades-fondo-claro)
+}
+  
+.especialidades__titulo {
+  font-size: 1.8em;
+  text: {
+    align: $texto-centrado;
+    decoration: $texto-decoration-underline;
+  }
+  margin-top: 2%;
+  animation-duration: 2s;
+  animation-name: aparecer;
+}
+
+@keyframes aparecer {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+  
+.especialidades__detalle {
+  margin: 5%;
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-columns:  repeat(3, 1fr);
+  grid-gap: 10px;
+  align-content: center; 
+}
+  
+.especialidades__detalle__box__titulo {
+  text-align: $texto-centrado;
+}
+  
+.especialidades__detalle__box__imagen {
+  display: flex;
+  justify-content: center; 
+}
+  
+.especialidades__final__texto {
+  text-align: $texto-centrado;
+  font: {
+    size: 2em;
+    weight: $negrita;
+  }
+  margin: 0%;
+  margin-bottom: 1%;
+}

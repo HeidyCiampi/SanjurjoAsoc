@@ -1,0 +1,173 @@
+/*Comienzo: INDEX - Foto tribunales - Texto*/
+  .foto__tribunales {
+    width: 100%;
+    height: auto;
+    justify-content: center; 
+  }
+  
+  .foto__tribunales__texto {
+    background: rgb(190, 190, 190);
+    background: linear-gradient(#ada996, #f2f2f2,  #dbdbdb,  #eaeaea);
+    display: inline-block;
+    text-align: $texto-centrado;
+    width: 100%;
+    padding: 2%;
+    font-size: $tamanioletra1em+0.3; 
+  }
+/*Fin: INDEX - Foto tribunales - Texto*/
+
+/*Comienzo: INDEX Mapa - Direccion*/
+  .ubicacion__linkMapa {
+    width: 50%;
+    height: auto;
+    justify-content: center;
+    margin: {
+      top: 7%;
+      left: 3%;
+      bottom: 3%; 
+    }
+  }
+  
+  .ubicacion {
+    display: flex; 
+  }
+
+  .ubicacion__direccion--borde{
+    border-style: double;
+    width: 50%;
+    margin-left: 25%;
+  }
+  
+  .ubicacion__texto {
+    justify-content: center;
+    text-align: center;
+    width: 50%;
+  }
+
+  .ubicacion__texto__intro{
+    font-size: 2.5em;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
+ 
+  }
+
+  .ubicacion__direccion__horariosDias--subrayado{
+    text-decoration: $texto-decoration-underline;
+  }
+  
+  .ubicacion__direccion__domicilio {
+    text-align: $texto-centrado;
+    font: {
+      size: $tamanioletra1em+0.7;
+      weight: $negrita;
+    }
+    margin: {
+      bottom: 2%;
+    } 
+  }
+  
+  .ubicacion__direccion__horariosDias {
+    text-align: $texto-centrado;
+    font: {
+      style: $cursiva;
+    }
+  }
+  
+  .ubicacion__protocolo {
+    margin-left: 10%;
+    margin-right: 10%;
+    text: {
+      align: $texto-centrado;
+      decoration: $texto-decoration-underline;
+    }
+    font: {
+      size: $tamanioletra1em;
+      style: $cursiva; 
+    }
+    text-decoration-color: $subrayado-rojo;;
+    align-content: center;
+  }
+  
+  .ubicacion__protocolo__imagen {
+    width: 8%;
+    height: auto;
+    align-content: center; 
+    text-align: center;
+  }
+/*Fin: INDEX Mapa - Direccion*/
+
+/*Comienzo: INDEX formulario - foto*/
+  .parteInferior {
+    display: flex; 
+  }
+  
+  .parteInferior__formulario {
+    margin-top: 2%;
+    justify-content: center;
+    width: 100%; 
+  }
+  
+  .parteInferior__formulario__titulo {
+    text-decoration: $texto-decoration-underline; 
+  }
+  
+  .parteInferior__formulario__detalle {
+    justify-content: center;
+    margin: 0;
+    margin-left: 15%; 
+  
+  }
+
+  .parteInferior__formulario__detalle__texto{
+    margin-bottom: 2%;
+  }
+
+  .parteInferior__formulario__detalle__texto--centrar{
+    margin-left: 8%;
+  }
+  
+  .parteInferior__formulario__texto {
+    text-align: $texto-centrado;
+    font-weight: $negrita; 
+  }
+  
+  .parteInferior__derecha__texto {
+    text-align: $texto-centrado;
+    font: {
+      size: $tamanioletra1em+0.1;
+      style: $cursiva;
+      weight: $negrita; 
+    }
+  }
+  
+  .parteInferior__derecha__imagen {
+    margin: auto;
+    margin: {
+      top: 2%;
+      bottom: 2%;
+    }
+    padding: 2%;
+    width: 100%; 
+  }
+  
+  .parteInferior__derecha {
+    justify-content: center; 
+  }
+  
+  .fin ul li a {
+    text: {
+      align: left;
+      decoration: $texto-decoration-none;
+    }
+    font-weight: $negrita;
+    margin: 0%;
+    list-style: none;
+    color: $texto-negro;
+    a:visited {
+      color: 0; 
+    }
+  }
+/*Fin: INDEX formulario - foto*/

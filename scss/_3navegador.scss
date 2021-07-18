@@ -1,0 +1,20 @@
+
+.navegacion__menu {
+  background:$fondo-gris;
+  margin: 0%;
+  justify-content: space-around;
+  font-size: 1.3em;
+  font-weight: $negrita;
+}
+
+.mynav {
+  a {
+    color: $texto-negro;
+    text-decoration: $texto-decoration-none; 
+    &:hover {
+      color: $texto-blanco !important;
+      transition: all .3s !important; 
+  } }
+}
+
+

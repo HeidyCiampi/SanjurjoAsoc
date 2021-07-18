@@ -1,0 +1,432 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 16px;
+  margin: 1%;
+}
+
+a {
+  text-decoration: none;
+}
+
+a :visited {
+  color: 0;
+}
+
+h1 {
+  color: black;
+  text-align: center;
+  font-weight: bold;
+  font-size: 2.5em;
+}
+
+h2 {
+  color: black;
+  text-align: center;
+  font-size: 2em;
+}
+
+p {
+  color: black;
+  font-size: 1.3em;
+}
+
+/*Comienzo:INDEX Parte Superior*/
+.header__superior {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: #949393;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-style: italic;
+}
+
+.header__superior__postulate {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  margin-left: 2%;
+}
+
+.header__superior__postulate__texto {
+  margin-top: 10%;
+  text-align: center;
+  font-size: 1em;
+  margin-left: 5%;
+}
+
+.header__superior__postulate__icono {
+  margin-top: 30%;
+  width: 3em;
+  margin-right: 10%;
+}
+
+.header__superior__postulate__icono:hover {
+  -webkit-transform: scale(1.3, 1.3);
+          transform: scale(1.3, 1.3);
+}
+
+/*Fin: INDEX Parte Superior*/
+/*Comienzo: INDEX Logo - Titulo*/
+.header__logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: white;
+}
+
+.header__logo__imagen {
+  width: 60%;
+  margin-left: 25%;
+  margin-top: 2%;
+  height: auto;
+  padding: 3%;
+}
+
+.header__logo__texto {
+  max-width: 100%;
+  margin: auto;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  padding-right: 10%;
+}
+
+.header__logo__texto__titulo, .header__logo__texto__subtitulo {
+  font-size: 3em;
+}
+
+.header__logo__texto__tercerLinea {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 1.5em;
+  font-style: italic;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+/*Fin: INDEX Logo - Titulo*/
+.main {
+  background: #949393;
+}
+
+.main__navegacion {
+  list-style: none;
+  display: inline;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  font-size: 1.3em;
+  text-align: center;
+  font-weight: bold;
+}
+
+.main__navegacion__menu ul {
+  list-style: none;
+}
+
+.main__navegacion__menu > li {
+  position: relative;
+  display: inline-block;
+}
+
+.main__navegacion__menu > li > a {
+  display: block;
+  padding: 20px 20px;
+  color: black;
+  text-decoration: none;
+}
+
+.main__navegacion__menu li a:hover {
+  color: white;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+
+/*Comienzo: INDEX - Foto tribunales - Texto*/
+.foto__tribunales {
+  width: 100%;
+  height: auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.foto__tribunales__texto {
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+  margin-top: 0%;
+  margin-bottom: 2%;
+  padding: auto;
+  font-size: 1.3em;
+}
+
+/*Fin: INDEX - Foto tribunales - Texto*/
+/*Comienzo: INDEX Mapa - Direccion*/
+.ubicacion__linkMapa {
+  width: 70%;
+  height: auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 5%;
+  margin-left: 5%;
+  margin-bottom: 5%;
+}
+
+.ubicacion {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.ubicacion__texto {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 80%;
+  padding: 8%;
+}
+
+.ubicacion__direccion--borde {
+  border-style: double;
+}
+
+.ubicacion__direccion__domicilio {
+  text-align: center;
+  font-size: 1.7em;
+  font-weight: bold;
+  margin-bottom: 5%;
+  margin-top: 5%;
+}
+
+.ubicacion__direccion__horariosDias {
+  text-align: center;
+  font-style: italic;
+  margin-bottom: 2%;
+  font-weight: bold;
+}
+
+.ubicacion__protocolo {
+  text-align: center;
+  text-decoration: underline;
+  -webkit-text-decoration-color: red;
+          text-decoration-color: red;
+  font-size: 1em;
+  margin-top: 5%;
+  font-style: italic;
+}
+
+.ubicacion__protocolo__imagen {
+  width: 10%;
+  height: auto;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.volverMapa ul li a {
+  text-align: center;
+  font-weight: bold;
+  margin: 0%;
+  text-decoration: none;
+  list-style: none;
+  color: black;
+}
+
+.volverMapa ul li a:visited {
+  color: 0;
+}
+
+/*Fin: INDEX Mapa - Direccion*/
+/*Comienzo: INDEX formulario - foto*/
+.parteInferior {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.parteInferior__formulario {
+  margin-top: 2%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+}
+
+.parteInferior__formulario__titulo {
+  text-decoration: underline;
+}
+
+.parteInferior__formulario__detalle {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0;
+  margin-left: 30%;
+}
+
+.parteInferior__formulario__texto {
+  text-align: center;
+  font-weight: bold;
+}
+
+.parteInferior__derecha__texto {
+  text-align: center;
+  font-size: 1.1em;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.parteInferior__derecha__imagen {
+  margin: auto;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  padding: 2%;
+  width: 100%;
+}
+
+.parteInferior__derecha {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.fin ul li a {
+  text-align: left;
+  font-weight: bold;
+  margin: 0%;
+  text-decoration: none;
+  list-style: none;
+  color: black;
+}
+
+.fin ul li a:visited {
+  color: 0;
+}
+
+/*Fin: INDEX formulario - foto*/
+.especialidades__detalle__box--gris {
+  background-color: #d4d4d4;
+  padding: 10%;
+  text-align: center;
+  border-radius: 10%;
+}
+
+.especialidades__detalle__box--claro {
+  background-color: #e7e7e7;
+  padding: 10%;
+  text-align: center;
+  border-radius: 10%;
+}
+
+.especialidades__titulo {
+  font-size: 1.8em;
+  text-align: center;
+  text-decoration: underline;
+  margin-top: 2%;
+}
+
+.especialidades__detalle {
+  margin: 5%;
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-columns:  repeat(3, 1fr);
+  grid-gap: 10px;
+  align-content: center; 
+}
+
+.especialidades__detalle__box__titulo {
+  text-align: center;
+}
+
+.especialidades__detalle__box__imagen {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.especialidades__final__texto {
+  text-align: center;
+  font-size: 2em;
+  font-weight: bold;
+  margin: 0%;
+  margin-bottom: 1%;
+}
+
+.nosotros__titulo {
+  font-size: 3em;
+  margin-top: 2%;
+  text-decoration: underline;
+}
+
+.nosotros__informacion {
+  width: 80%;
+  margin: 5%;
+  top: 5%;
+  bottom: 5%;
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  grid-template-rows: repeat(3, auto);
+  align-content: center;
+  grid-template-areas: 
+  ". efectividad"
+  "atencion ."
+  ". excelencia";
+  justify-content: space-between;
+}
+
+.nosotros__informacion__efectividad {
+  grid-area: efectividad;
+  text-align: center;
+}
+
+.nosotros__informacion__atencion {
+  grid-area: atencion;
+  text-align: center;
+}
+
+.nosotros__informacion__excelencia {
+  grid-area: excelencia;
+  text-align: center;
+}
+
+.nosotros__informacion__imagen {
+  -ms-flex-line-pack: center;
+      align-content: center;
+  width: 10%;
+}
+
+footer {
+  text-align: center;
+  font-size: 1em;
+  font-weight: bold;
+  background: #949393;
+}
+
+.footer__texto {
+  font-weight: bold;
+}
+
+.footer__icono {
+  width: 1.8em;
+  margin-right: 1%;
+}
+
+.footer__icono:hover {
+  -webkit-transform: scale(1.3, 1.3);
+          transform: scale(1.3, 1.3);
+}
+/*# sourceMappingURL=prueba.css.map */

@@ -1,0 +1,416 @@
+@import "variables";
+@import "1generales";
+@import "2header";
+@import "3navegador";
+@import "4index";
+@import "5especialidades";
+@import "6nosotros";
+@import "7footer";
+
+@media screen and (min-width: 320px) and (max-width: 425px){
+  /*COMIENZO HEADER - NAV*/ 
+  .header__superior{
+    font-size: 65%;
+  }
+
+  .header__superior__telefono{
+    margin-left: 20%;
+  }
+    
+  .header__logo{
+    display: block;
+    font-size: 66%;
+    margin-left: 8.2%;
+    img{
+        width: 90%;
+        margin: 0%;
+      }
+  }
+  
+  .header__logo__texto {
+    h1{
+      font-size: 2.5em;
+    }
+    h2{
+      font-size: 2em;
+      padding: 2%;
+    }
+    p{
+      font-size: 1.2em;
+      padding: 2%;
+    }
+  }
+
+  .navegacion__menu{
+    font-size: 1em;
+  }
+  /*FIN HEADER - NAV*/ 
+
+.foto__tribunales__texto{
+  font-size: 0.8em; 
+}
+
+  /*COMIENZO UBICACION - DOMICILIO/HORARIOS */ 
+  .ubicacion{
+    flex-direction: column;
+  }
+    
+  .ubicacion__linkMapa{
+    width: 100%;
+    align-content: center;
+    margin-left: 0%;
+    padding: 0%;
+  }
+    
+  .ubicacion__texto{
+    width: 100%;
+    font-size: 50%;
+  }
+    
+  .ubicacion__texto__intro{
+     margin-top: 2%;
+  }
+    
+  .ubicacion__direccion__domicilio{
+    font-size: 2.8em;
+  }
+
+  .ubicacion__direccion__horariosDias, .ubicacion__protocolo__texto{
+    font-style: normal;
+    font-size: 1.5em;
+  }
+    
+  .ubicacion__protocolo__imagen{
+    width: 15%;
+    margin-top: 2%;
+  }
+    
+  .ubicacion__direccion--borde{
+    width: 100%;
+    margin-left: 0%;
+  }
+  /*FIN UBICACION - DOMICILIO/HORARIOS */
+
+  /*COMIENZO PARTE INFERIOR - FORMULARIO - FOTO*/ 
+  .parteInferior{
+    flex-direction: column;
+  }
+    
+  .parteInferior__formulario{
+    margin-top: 0%;
+  }
+    
+  .parteInferior__formulario__detalle{
+    width: 60%;
+    margin-left: 2%;
+  }
+    
+  .parteInferior__formulario__texto{
+    font-size: 1.2em;
+  }
+    
+  .parteInferior__formulario__detalle__texto{
+    margin-bottom: 0%;
+  }
+    
+  .parteInferior__derecha__imagen > img{
+    width: 100%;
+  }
+    
+  .parteInferior__derecha__texto{
+    font-size: 0.9em;
+  }
+  /*FIN PARTE INFERIOR - FORMULARIO - FOTO*/ 
+
+  /*COMIENZO NOSOTROS*/ 
+  .nosotros{
+    align-content: center;
+    margin: auto;
+  }
+            
+  .nosotros__informacion {
+    margin-top: 3%;
+    margin-bottom: 3%;
+    display: grid;
+    grid-template-columns: repeat(1, auto);
+    grid-template-rows: repeat(3, auto);
+    align-content: center;
+    grid-template-areas: 
+      "efectividad"
+      "atencion"
+      "excelencia";
+    justify-content: center;
+  }
+            
+  .nosotros__informacion__imagen{
+      width: 19%;
+  }
+            
+  .nosotros__titulo{
+    font-size: 2.3em;
+  }
+  /*FIN NOSOTROS*/ 
+
+  /*COMIENZO ESPECIALIDADES*/ 
+  .especialidades__detalle {
+    grid-template-rows: repeat(1, 1fr);
+    grid-template-columns:  repeat(1, 1fr);
+  }
+    
+  .especialidades__titulo{
+    font-size: 1.2em;
+  }
+    
+  .especialidades__final__texto{
+    font-size: 1.2em;
+  }
+    
+  .nosotros__titulo{
+    font-size: 1.8em;
+  }
+  /*FIN ESPECIALIDADES*/
+     
+  .footer{
+    font-size: 0.8em;
+  }
+  
+}
+
+@media screen and (min-width: 426px) and (max-width: 768px){
+
+  /* COMIENZO HEADER */
+  .header__logo__texto {
+    margin-top: 5%;
+    h1{
+      font-size: 1.8em;
+    }
+    h2{
+      font-size: 1.3em;
+      padding: 0%;}
+    p{
+      font-size: 1em;
+      padding: 0%;
+    }
+  }
+
+  .header__logo__imagen{
+    width: 80%;
+    margin: 0%;
+  }
+
+  /* FIN HEADER */
+
+  /* COMIENZO UBICACION */
+  .ubicacion{
+    flex-direction: column;
+  }
+
+  .ubicacion__linkMapa{
+    width: 100%;
+    height: auto;
+    margin: 0%;
+    padding: 2%;
+  }
+      
+  .ubicacion__texto{
+    width: 100%;
+    font-size: 50%;
+  }
+      
+  .ubicacion__texto__intro{
+    margin-top: 2%;
+    font-size: 3em;
+  }
+      
+  .ubicacion__direccion__domicilio{
+    font-size: 2.8em;
+  }
+  
+  .ubicacion__direccion__horariosDias, .ubicacion__protocolo__texto{
+    font-style: normal;
+    font-size: 1.9em;
+  }
+      
+  .ubicacion__protocolo__imagen{
+    width: 10%;
+    margin-top: 2%;
+  }
+      
+  .ubicacion__direccion--borde{
+    width: 50%;
+    margin-left: 25%;
+  }
+  /* FIN UBICACION */
+
+  /*COMIENZO PARTE INFERIOR - FORMULARIO - FOTO*/
+  .parteInferior{
+    flex-direction: column;
+  }
+
+  .parteInferior__formulario__detalle{
+    width: 60%;
+    margin-left: 30%;
+  }
+
+  .parteInferior__derecha__imagen > img{
+    width: 100%;
+  }
+  /*FIN PARTE INFERIOR - FORMULARIO - FOTO*/
+
+  /*COMIENZO NOSOTROS*/
+  .nosotros{
+    align-content: center;
+    margin: auto;
+  }
+
+  .nosotros__informacion{
+    margin-top: 3%;
+    margin-bottom: 3%;
+    display: grid;
+    grid-template-columns: repeat(1, auto);
+    grid-template-rows: repeat(3, auto);
+    align-content: center;
+    grid-template-areas: 
+      "efectividad"
+      "atencion"
+      "excelencia";
+    justify-content: center;
+  }
+
+  .nosotros__informacion__imagen{
+    width: 10%;
+  }
+
+  .nosotros__titulo{
+    font-size: 2.3em;
+  }
+
+  .nosotros__titulo{
+    font-size: 2em;
+  }
+  /*FIN NOSOTROS*/
+
+  /*COMIENZO ESPECIALIDADES*/
+  .especialidades__detalle {
+    grid-template-rows: repeat(1, auto);
+    grid-template-columns:  repeat(1, auto);
+  }
+
+  .especialidades__titulo{
+    font-size: 1.5em;
+  }
+
+  .especialidades__final__texto{
+    font-size: 1.2em;
+  }
+  /*COMIENZO ESPECIALIDADES*/
+
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px){
+  /*COMIENZO HEADER*/
+  .header__logo__texto {
+    margin-top: 5%;
+    h1{
+      font-size: 2em;
+    }
+    h2{
+      font-size: 1.3em;
+      padding: 0%;}
+    p{
+      font-size: 1em;
+      padding: 0%;
+    }
+  }
+
+  .header__logo__imagen{
+    width: 80%;
+    margin: 0%;
+  }
+  /*FIN HEADER*/
+
+  /*COMIENZO UBICACION*/
+  .ubicacion{
+    flex-direction: column;
+  }
+
+ .ubicacion__linkMapa{
+    width: 100%;
+    height: auto;
+    margin: 0%;
+    padding: 2%;
+  }
+  
+  .ubicacion__texto{
+    width: 100%;
+    font-size: 50%;
+  }
+  
+  .ubicacion__texto__intro{
+    margin-top: 2%;
+    font-size: 3em;
+  }
+  
+  .ubicacion__direccion__domicilio{
+    font-size: 2.8em;
+  }
+
+  .ubicacion__direccion__horariosDias, .ubicacion__protocolo__texto{
+    font-style: normal;
+    font-size: 1.9em; 
+  }
+  
+  .ubicacion__protocolo__imagen{
+    width: 10%;
+    margin-top: 2%;
+  }
+  
+  .ubicacion__direccion--borde{
+    width: 50%;
+    margin-left: 25%;
+  }
+
+  .parteInferior{
+    flex-direction: column;
+  }
+  /*FIN UBICACION*/
+
+  /*COMIENZO PARTE INFERIOR - FORMULARIO - FOTO*/
+  .parteInferior__formulario__detalle{
+    width: 60%;
+    margin-left: 30%;
+  }
+
+  .parteInferior__derecha__imagen > img{
+    width: 80%;
+    margin-left: 10%;
+  }
+  /*FIN PARTE INFERIOR - FORMULARIO - FOTO*/
+
+  /*COMIENZO ESPECIALIDADES*/
+  .especialidades__detalle {
+    grid-template-rows: repeat(2, auto);
+    grid-template-columns:  repeat(2, auto);
+  }
+
+  .especialidades__titulo{
+    font-size: 1.5em;
+  }
+
+  .especialidades__final__texto{
+    font-size: 1.5em;
+  }
+  /*FIN ESPECIALIDADES*/
+
+  /*COMIENZO NOSOTROS*/
+  .nosotros__titulo{
+    font-size: 2em;
+  }
+  /*FIN NOSOTROS*/
+
+}
+
+
+
+      
+    

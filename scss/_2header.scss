@@ -1,0 +1,101 @@
+/*Comienzo:INDEX Parte Superior*/
+  .header__superior {
+    background-color: #949393;
+    display: grid;
+    grid-template-columns: repeat(3, 10em);
+    grid-template-rows: repeat(1, 3em);
+    grid-template-areas: 
+    "postulate telefono redesSociales";
+    justify-content: space-between;
+  }
+  
+  .header__superior__postulate{
+    grid-area: postulate;
+    display: flex;
+    text-align: center;
+    margin: 2%;
+  }
+
+  .icono__maletin{
+    width: 1.8em;
+    margin-left: 40%;
+    &:hover {transform: scale(1.3, 1.3)
+    } 
+  }
+
+  .header__superior__postulate__texto  {
+    margin-top: 1%;
+    margin-left: 10%;
+    font-size: 0.9em;
+    font-weight: bold;
+  }
+
+  .header__superior__telefono {
+    grid-area: telefono;
+    display: flex;
+    align-content: center;
+  }
+
+  .header__superior__telefono__texto{
+    margin-top: 10%;
+    margin-left: 5%;
+    font-weight: bold;
+    font-size: 0.9em;
+  }
+
+  .icono__telefono{
+    width: 1.5em;
+    margin-bottom: 5%;
+    &:hover {transform: scale(1.3, 1.3)
+    } 
+  }
+
+  .header__superior__redes{
+    grid-area: redesSociales;
+  }
+
+  .icono {
+    width: 1.5em;
+    margin-top: 5%;
+    margin-left: 3%;
+    &:hover {transform: scale(1.3, 1.3)
+    } 
+  }
+/*Fin: INDEX Parte Superior*/
+
+/*Comienzo: INDEX Logo - Titulo*/
+  .header__logo {
+    display: flex; 
+  }
+  
+  .header__logo__imagen {
+    width: 60%;
+    height: auto;
+    padding: 3%;
+    margin: { 
+      left:25%;
+      top: 2%;
+    }
+  }
+  
+  .header__logo__texto {
+    max-width: 100%;
+    margin: auto;
+    align-content: center;
+    padding-right: 10%; 
+  }
+  
+  .header__logo__texto__titulo, .header__logo__texto__subtitulo {
+    font-size: $tamanioletra1em*3; 
+  }
+  
+  .header__logo__texto__tercerLinea {
+    display: flex;
+    font: {
+      size: $tamanioletra1em+0.5;
+      style: $cursiva;
+    }
+    justify-content: center; 
+  }
+/*Fin: INDEX Logo - Titulo*/
+

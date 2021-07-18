@@ -1,0 +1,47 @@
+
+.nosotros__titulo {
+  font-size: 3em;
+  text-decoration: $texto-decoration-underline; 
+  @if ($texto-decoration-underline == underline) {
+    font-style: none;
+  }
+  @else if ($texto-decoration-underline == none) {
+    color: yellow;
+  }
+}
+
+.nosotros__informacion {
+  width: 80%;
+  margin: 5%;
+  top: 5%;
+  bottom: 5%;
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  grid-template-rows: repeat(3, auto);
+  align-content: center;
+  grid-template-areas: 
+  ". efectividad"
+  "atencion ."
+  ". excelencia";
+  justify-content: space-between;
+}
+  
+.nosotros__informacion__efectividad {
+  grid-area: efectividad;
+  text-align: $texto-centrado; 
+}
+  
+.nosotros__informacion__atencion {
+  grid-area: atencion;
+  text-align: $texto-centrado;
+}
+  
+.nosotros__informacion__excelencia {
+  grid-area: excelencia;
+  text-align: $texto-centrado; 
+}
+  
+.nosotros__informacion__imagen {
+  align-content: center;
+  width: 10%; 
+}
