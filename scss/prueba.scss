@@ -43,6 +43,7 @@
 
   .navegacion__menu{
     font-size: 1em;
+    text-align: center;
   }
   /*FIN HEADER - NAV*/ 
 
@@ -101,8 +102,7 @@
   }
     
   .parteInferior__formulario__detalle{
-    width: 60%;
-    margin-left: 2%;
+    width: 55%;
   }
     
   .parteInferior__formulario__texto{
@@ -110,9 +110,14 @@
   }
     
   .parteInferior__formulario__detalle__texto{
-    margin-bottom: 0%;
+    margin-bottom: 3%;
   }
-    
+
+  .parteInferior__formulario__detalle__texto--consulta{
+    width: 120%;
+
+  }
+
   .parteInferior__derecha__imagen > img{
     width: 100%;
   }
@@ -120,6 +125,12 @@
   .parteInferior__derecha__texto{
     font-size: 0.9em;
   }
+
+  .parteInferior__formulario__detalle__texto--centrar{
+    font-size: 1em;
+    text-align: center;
+  }
+
   /*FIN PARTE INFERIOR - FORMULARIO - FOTO*/ 
 
   /*COMIENZO NOSOTROS*/ 
@@ -129,8 +140,8 @@
   }
             
   .nosotros__informacion {
-    margin-top: 3%;
-    margin-bottom: 3%;
+    width: 85%;
+    margin-left: 8%;
     display: grid;
     grid-template-columns: repeat(1, auto);
     grid-template-rows: repeat(3, auto);
@@ -196,6 +207,10 @@
   .header__logo__imagen{
     width: 80%;
     margin: 0%;
+  }
+
+  .navegacion__menu{
+    text-align: center;
   }
 
   /* FIN HEADER */

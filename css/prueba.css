@@ -65,7 +65,8 @@ p {
   margin-top: 10%;
   margin-left: 5%;
   font-weight: bold;
-  font-size: 0.9em; }
+  font-size: 0.9em;
+  text-decoration: none; }
 
 .icono__telefono {
   width: 1.5em;
@@ -376,7 +377,8 @@ footer {
     font-size: 1.2em;
     padding: 2%; }
   .navegacion__menu {
-    font-size: 1em; }
+    font-size: 1em;
+    text-align: center; }
   /*FIN HEADER - NAV*/
   .foto__tribunales__texto {
     font-size: 0.8em; }
@@ -411,24 +413,28 @@ footer {
   .parteInferior__formulario {
     margin-top: 0%; }
   .parteInferior__formulario__detalle {
-    width: 60%;
-    margin-left: 2%; }
+    width: 55%; }
   .parteInferior__formulario__texto {
     font-size: 1.2em; }
   .parteInferior__formulario__detalle__texto {
-    margin-bottom: 0%; }
+    margin-bottom: 3%; }
+  .parteInferior__formulario__detalle__texto--consulta {
+    width: 120%; }
   .parteInferior__derecha__imagen > img {
     width: 100%; }
   .parteInferior__derecha__texto {
     font-size: 0.9em; }
+  .parteInferior__formulario__detalle__texto--centrar {
+    font-size: 1em;
+    text-align: center; }
   /*FIN PARTE INFERIOR - FORMULARIO - FOTO*/
   /*COMIENZO NOSOTROS*/
   .nosotros {
     align-content: center;
     margin: auto; }
   .nosotros__informacion {
-    margin-top: 3%;
-    margin-bottom: 3%;
+    width: 85%;
+    margin-left: 8%;
     display: grid;
     grid-template-columns: repeat(1, auto);
     grid-template-rows: repeat(3, auto);
@@ -469,6 +475,8 @@ footer {
   .header__logo__imagen {
     width: 80%;
     margin: 0%; }
+  .navegacion__menu {
+    text-align: center; }
   /* FIN HEADER */
   /* COMIENZO UBICACION */
   .ubicacion {
