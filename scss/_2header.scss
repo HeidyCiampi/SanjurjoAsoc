@@ -19,7 +19,9 @@
   .icono__maletin{
     width: 1.8em;
     margin-left: 40%;
-    &:hover {transform: scale(1.3, 1.3)
+    &:hover {
+      transition: 0.5s;
+      transform: scale(1.3, 1.3)
     } 
   }
 
@@ -47,7 +49,9 @@
   .icono__telefono{
     width: 1.5em;
     margin-bottom: 5%;
-    &:hover {transform: scale(1.3, 1.3)
+    &:hover {
+      transition: 0.5s;
+      transform: scale(1.3, 1.3)
     } 
   }
 
@@ -59,7 +63,9 @@
     width: 1.5em;
     margin-top: 5%;
     margin-left: 3%;
-    &:hover {transform: scale(1.3, 1.3)
+    &:hover {
+      transition: 0.5s;
+      transform: scale(1.3, 1.3)
     } 
   }
 /*Fin: INDEX Parte Superior*/

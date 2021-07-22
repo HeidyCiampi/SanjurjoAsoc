@@ -120,7 +120,7 @@
     margin-left: 15%; 
   
   }
-
+ 
   .parteInferior__formulario__detalle__texto{
     margin-bottom: 2%;
   }
@@ -156,18 +156,12 @@
   .parteInferior__derecha {
     justify-content: center; 
   }
-  
-  .fin ul li a {
-    text: {
-      align: left;
-      decoration: $texto-decoration-none;
-    }
-    font-weight: $negrita;
-    margin: 0%;
-    list-style: none;
-    color: $texto-negro;
-    a:visited {
-      color: 0; 
-    }
-  }
 /*Fin: INDEX formulario - foto*/
+
+.boton__volver__inicio a {
+  color: black;
+  text-decoration: $texto-decoration-none; 
+  &:visited {
+    color: 0; 
+}
+}
