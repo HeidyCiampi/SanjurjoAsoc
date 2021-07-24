@@ -51,7 +51,6 @@
     margin-top: 10%;
     margin-left: 5%;
     margin-right: 5%;
- 
   }
 
   .ubicacion__direccion__horariosDias--subrayado{
@@ -158,10 +157,3 @@
   }
 /*Fin: INDEX formulario - foto*/
 
-.boton__volver__inicio a {
-  color: black;
-  text-decoration: $texto-decoration-none; 
-  &:visited {
-    color: 0; 
-}
-}

@@ -29,6 +29,18 @@ p {
   color: black;
   font-size: 1.3em; }
 
+/*BOTON HTML ERROR*/
+.boton__volver__inicio a {
+  color: black;
+  margin-left: 80%;
+  text-decoration: none; }
+  .boton__volver__inicio a:visited {
+    color: 0; }
+
+.error__imagen {
+  width: 40%;
+  text-align: center; }
+
 /*Comienzo:INDEX Parte Superior*/
 .header__superior {
   background-color: #949393;
@@ -63,7 +75,7 @@ p {
   align-content: center; }
 
 .header__superior__telefono__texto {
-  margin-top: 10%;
+  margin-top: 5%;
   margin-left: 5%;
   font-weight: bold;
   font-size: 0.9em;
@@ -97,7 +109,7 @@ p {
   height: auto;
   padding: 3%;
   margin-left: 25%;
-  margin-top: 2%; }
+  margin-top: 5%; }
 
 .header__logo__texto {
   max-width: 100%;
@@ -249,12 +261,6 @@ p {
   justify-content: center; }
 
 /*Fin: INDEX formulario - foto*/
-.boton__volver__inicio a {
-  color: black;
-  text-decoration: none; }
-  .boton__volver__inicio a:visited {
-    color: 0; }
-
 .especialidades__detalle__box--gris {
   background-color: #d4d4d4;
   padding: 10%;
