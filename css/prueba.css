@@ -29,11 +29,6 @@ p {
   color: black;
   font-size: 1.3em; }
 
-/*ERROR 404*/
-.error__imagen {
-  width: 40%;
-  text-align: center; }
-
 /*Comienzo:INDEX Parte Superior*/
 .header__superior {
   background-color: #949393;
