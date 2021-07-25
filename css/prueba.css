@@ -30,13 +30,6 @@ p {
   font-size: 1.3em; }
 
 /*BOTON HTML ERROR*/
-.boton__volver__inicio a {
-  color: black;
-  margin-left: 80%;
-  text-decoration: none; }
-  .boton__volver__inicio a:visited {
-    color: 0; }
-
 .error__imagen {
   width: 40%;
   text-align: center; }
@@ -118,7 +111,8 @@ p {
   padding-right: 10%; }
 
 .header__logo__texto__titulo, .header__logo__texto__subtitulo {
-  font-size: 3em; }
+  font-size: 3em;
+  margin-top: 2%; }
 
 .header__logo__texto__tercerLinea {
   display: flex;
@@ -310,6 +304,7 @@ p {
   margin-bottom: 1%; }
 
 .nosotros__titulo {
+  margin-top: 3%;
   font-size: 3em;
   text-decoration: underline;
   font-style: none; }

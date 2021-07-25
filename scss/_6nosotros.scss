@@ -1,5 +1,6 @@
 
 .nosotros__titulo {
+  margin-top: 3%;
   font-size: 3em;
   text-decoration: $texto-decoration-underline; 
   @if ($texto-decoration-underline == underline) {
