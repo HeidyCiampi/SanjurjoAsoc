@@ -9,5 +9,5 @@ Carpeta de imágenes catalogadas para fácil ubicación.
 ***
 Sitio creado responsive con dispositivos desktop/móviles: min-width: 426px and max-width: 768px // min-width: 769px and max-width: 1024px // min 1025px.
 ***
-Recursos utilizados: HTML, CSS, BOOTSTRAP, SASS, GIT.
+Recursos utilizados: HTML, CSS,FLEX, BOOTSTRAP, SASS, GIT.
 
